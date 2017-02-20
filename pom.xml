@@ -26,7 +26,8 @@
     <commons.net.version>3.3</commons.net.version>
     <commons.math3.version>3.5</commons.math3.version>
     <commons.httpclient.version>3.1</commons.httpclient.version>
-    <commons.csv.version>1.4</commons.csv.version>            
+    <commons.csv.version>1.4</commons.csv.version>
+    <commons.compress.version>1.13</commons.compress.version>                
     <renci.commons.version>0.2.3</renci.commons.version>    
     <osgi.version>5.0.0</osgi.version>
     <openjpa.version>2.4.1</openjpa.version>
@@ -53,6 +54,11 @@
   </scm>
   <dependencyManagement>
     <dependencies>
+      <dependency>
+	<groupId>org.apache.commons</groupId>
+	<artifactId>commons-compress</artifactId>
+	<version>${commons.compress.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.ops4j.pax.cdi</groupId>
         <artifactId>pax-cdi-api</artifactId>
