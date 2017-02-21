@@ -23,7 +23,7 @@
     <commons.discovery.version>0.5</commons.discovery.version>
     <commons.io.version>2.5</commons.io.version>
     <commons.lang.version>2.6</commons.lang.version>
-    <commons.net.version>3.3</commons.net.version>
+    <commons.net.version>3.6</commons.net.version>
     <commons.math3.version>3.5</commons.math3.version>
     <commons.httpclient.version>3.1</commons.httpclient.version>
     <commons.csv.version>1.4</commons.csv.version>
@@ -54,6 +54,11 @@
   </scm>
   <dependencyManagement>
     <dependencies>
+      <dependency>
+	<groupId>commons-net</groupId>
+	<artifactId>commons-net</artifactId>
+	<version>${commons.net.version}</version>
+      </dependency>
       <dependency>
 	<groupId>org.apache.commons</groupId>
 	<artifactId>commons-compress</artifactId>
