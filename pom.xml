@@ -28,15 +28,16 @@
     <commons.httpclient.version>3.1</commons.httpclient.version>
     <commons.csv.version>1.4</commons.csv.version>
     <commons.compress.version>1.13</commons.compress.version>                
-    <renci.commons.version>0.2.3</renci.commons.version>    
+    <renci.commons.version>0.2.3</renci.commons.version>
+    <hibernate.version>5.2.6.Final</hibernate.version>
     <osgi.version>5.0.0</osgi.version>
-    <karaf.version>4.0.8</karaf.version>
+    <karaf.version>4.1.0</karaf.version>
     <cxf.version>3.1.8</cxf.version>    
     <htsjdk.version>2.8.1</htsjdk.version>    
     <openjpa.version>2.4.2</openjpa.version>
     <jackson.version>2.6.6</jackson.version>    
-    <slf4j.version>1.7.12</slf4j.version>
-    <spring.version>4.2.5.RELEASE</spring.version>
+    <slf4j.version>1.7.13</slf4j.version>
+    <spring.version>4.3.5.RELEASE</spring.version>
     <postgresql.version>9.4.1212.jre7</postgresql.version>
   </properties>
   <issueManagement>
@@ -297,7 +298,7 @@
       <dependency>
       	<groupId>org.hibernate</groupId>
       	<artifactId>hibernate-validator</artifactId>
-      	<version>4.2.0.Final</version>
+      	<version>5.2.4.Final</version>
       </dependency>
       <dependency>
       	<groupId>org.mockito</groupId>
@@ -333,7 +334,27 @@
       	<groupId>org.apache.geronimo.components</groupId>
       	<artifactId>geronimo-transaction</artifactId>
       	<version>3.1.1</version>
-      </dependency>            
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate.javax.persistence</groupId>
+        <artifactId>hibernate-jpa-2.1-api</artifactId>
+        <version>1.0.0.Final</version>
+      </dependency>
+      <dependency>
+	<groupId>org.hibernate</groupId>
+	<artifactId>hibernate-jpamodelgen</artifactId>
+	<version>${hibernate.version}</version>
+      </dependency>
+      <dependency>
+	<groupId>org.hibernate</groupId>
+	<artifactId>hibernate-core</artifactId>
+	<version>${hibernate.version}</version>
+      </dependency>
+      <dependency>
+	<groupId>org.hibernate</groupId>
+	<artifactId>hibernate-entitymanager</artifactId>
+	<version>${hibernate.version}</version>
+      </dependency>      
     </dependencies>
   </dependencyManagement>
   <dependencies>
