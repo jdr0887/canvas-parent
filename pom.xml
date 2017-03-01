@@ -30,7 +30,8 @@
     <commons.compress.version>1.13</commons.compress.version>                
     <renci.commons.version>0.2.3</renci.commons.version>
     <hibernate.version>5.2.6.Final</hibernate.version>
-    <osgi.version>5.0.0</osgi.version>
+    <osgi.version>6.0.0</osgi.version>
+    <osgi.compendium.version>5.0.0</osgi.compendium.version>    
     <karaf.version>4.1.0</karaf.version>
     <cxf.version>3.1.8</cxf.version>    
     <htsjdk.version>2.8.1</htsjdk.version>    
@@ -38,7 +39,7 @@
     <jackson.version>2.6.6</jackson.version>    
     <slf4j.version>1.7.13</slf4j.version>
     <spring.version>4.3.5.RELEASE</spring.version>
-    <postgresql.version>9.4.1212.jre7</postgresql.version>
+    <postgresql.version>42.0.0.jre7</postgresql.version>
     <pax.cdi.version>1.0.0.RC2</pax.cdi.version>
     <pax.jdbc.version>1.0.0</pax.jdbc.version>        
   </properties>
@@ -164,13 +165,12 @@
       <dependency>
       	<groupId>org.osgi</groupId>
       	<artifactId>org.osgi.compendium</artifactId>
-      	<version>${osgi.version}</version>
+      	<version>${osgi.compendium.version}</version>
       </dependency>
       <dependency>
       	<groupId>org.osgi</groupId>
       	<artifactId>org.osgi.core</artifactId>
       	<version>${osgi.version}</version>
-      	<scope>provided</scope>
       </dependency>
       <dependency>
 	<groupId>javax.ws.rs</groupId>
