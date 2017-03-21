@@ -41,7 +41,8 @@
     <spring.version>4.3.5.RELEASE</spring.version>
     <postgresql.version>42.0.0.jre7</postgresql.version>
     <pax.cdi.version>1.0.0.RC2</pax.cdi.version>
-    <pax.jdbc.version>1.0.0</pax.jdbc.version>        
+    <pax.jdbc.version>1.0.0</pax.jdbc.version>
+    <guava.version>21.0</guava.version>
   </properties>
   <issueManagement>
     <system>GitHub Issues</system>
@@ -62,6 +63,11 @@
   </scm>
   <dependencyManagement>
     <dependencies>
+      <dependency>
+	<groupId>com.google.guava</groupId>
+	<artifactId>guava</artifactId>
+	<version>${guava.version}</version>
+      </dependency>
       <dependency>
 	<groupId>org.apache.karaf.shell</groupId>
 	<artifactId>org.apache.karaf.shell.core</artifactId>
