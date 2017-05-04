@@ -29,7 +29,7 @@
     <commons.csv.version>1.4</commons.csv.version>
     <commons.compress.version>1.13</commons.compress.version>                
     <renci.commons.version>0.2.3</renci.commons.version>
-    <hibernate.version>5.2.8.Final</hibernate.version>
+    <hibernate.version>5.2.10.Final</hibernate.version>
     <osgi.version>6.0.0</osgi.version>
     <osgi.compendium.version>5.0.0</osgi.compendium.version>    
     <karaf.version>4.1.1</karaf.version>
