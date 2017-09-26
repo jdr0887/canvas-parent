@@ -29,7 +29,7 @@
     <commons.csv.version>1.4</commons.csv.version>
     <commons.compress.version>1.13</commons.compress.version>                
     <renci.commons.version>0.2.3</renci.commons.version>
-    <hibernate.version>5.2.10.Final</hibernate.version>
+    <hibernate.version>5.2.11.Final</hibernate.version>
     <osgi.version>6.0.0</osgi.version>
     <osgi.compendium.version>5.0.0</osgi.compendium.version>    
     <karaf.version>4.1.2</karaf.version>
@@ -44,7 +44,7 @@
     <pax.cdi.version>1.0.0.RC2</pax.cdi.version>
     <pax.jdbc.version>1.0.0</pax.jdbc.version>
     <guava.version>21.0</guava.version>
-    <gerese4j.version>1.0.4</gerese4j.version>
+    <gerese4j.version>1.0.5</gerese4j.version>
   </properties>
   <issueManagement>
     <system>GitHub Issues</system>
