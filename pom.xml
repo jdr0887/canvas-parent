@@ -2,7 +2,7 @@
   <parent>
     <groupId>org.renci</groupId>
     <artifactId>parent</artifactId>
-    <version>0.0.15</version>    
+    <version>0.0.16</version>    
   </parent>
   <name>CANVAS :: Parent</name>
   <modelVersion>4.0.0</modelVersion>
@@ -32,7 +32,7 @@
     <hibernate.version>5.2.11.Final</hibernate.version>
     <osgi.version>6.0.0</osgi.version>
     <osgi.compendium.version>5.0.0</osgi.compendium.version>    
-    <karaf.version>4.1.2</karaf.version>
+    <karaf.version>4.1.4</karaf.version>
     <cxf.version>3.1.8</cxf.version>    
     <htsjdk.version>2.9.1</htsjdk.version>    
     <openjpa.version>2.4.2</openjpa.version>
